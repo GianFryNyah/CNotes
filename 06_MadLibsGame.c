@@ -4,11 +4,11 @@
 int main(){
     //ImperialMesmerizingCandy
     
-    char noun[15] = "";
-    char verb[20] = "";
-    char adjective1[20] = "";
-    char adjective2[20] = "";
-    char adjective3[20] = "";
+    char noun[30] = "";
+    char verb[30] = "";
+    char adjective1[30] = "";
+    char adjective2[30] = "";
+    char adjective3[30] = "";
 
     printf("Enter an adjective (description): ");
     fgets(adjective1, sizeof(adjective1), stdin);
@@ -28,7 +28,7 @@ int main(){
 
     printf("Enter an adjective (description): ");
     fgets(adjective3, sizeof(adjective3), stdin);
-    adjective3[strlen(verb)-1] = '\0';
+    adjective3[strlen(adjective3)-1] = '\0';
 
     printf("\nToday I went to a %s zoo.\n", adjective1);
     printf("In an exhibit, I saw a %s.\n", noun);
