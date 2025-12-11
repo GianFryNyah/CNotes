@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+//Recommended to read about: https://web.archive.org/web/20250417094758/https://sekrit.de/webdocs/c/beginners-guide-away-from-scanf.html
+
 int main() {
     int age = 0;
     float gpa = 0.0f;
@@ -34,10 +36,8 @@ int main() {
     It's best practice to ASSIGN default-temporary values to variables
     just in case they get ACCESSED before assignments
     
-    Input: scanf() and fgets() (it means File Get String) are
+    Input: scanf() (not recommended) and fgets() (it means File Get String) are
     the two common functions for taking input
-    Both of them will take even the ENTER input as a character,
-    the '\n' one.
     scanf() WILL STOP when ecountering any type of spaces character
     fgets() will take every character as long as the input space to
     allocated is correctly passed as an argument.*/
