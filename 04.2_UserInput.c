@@ -76,3 +76,8 @@ int main(){
     printf("You entered %ld.\n", num2);
     return 0;
 }
+// strtod() --> convert a character string to a double
+// strtof() --> convert a character string to a float
+// strtold()--> convert a character string to a long double
+// strtol() --> convert a character string to a long int
+// strtoll()--> convert a character string to a long long int
